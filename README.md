@@ -32,7 +32,7 @@ Antes de começar, certifique-se de ter os seguintes itens instalados em sua má
    mvn clean install
 4. Execute a aplicação:
     ```bash
-  mvn spring-boot:run 
+    mvn spring-boot:run 
   
 5. A aplicação estará acessível em http://localhost:8080. 
 
@@ -43,9 +43,8 @@ Antes de começar, certifique-se de ter os seguintes itens instalados em sua má
 
 ## Configuração
 As configurações de conexão do Redis da aplicação podem ser configuradas no arquivo application.properties.
-  ```properite
-   spring.redis.host=localhost
-   spring.redis.port=6379
-##Licença
-Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para mais detalhes.
+  ```bash
+     spring.redis.host=localhost
+     spring.redis.port=6379
+
 
